@@ -13,6 +13,7 @@ export default function Navbar() {
         className="w-44 cursor-pointer"
         src={assets.logo}
         alt="BookDoctor Logo"
+        onClick={() => navigate("/")}
       />
       <ul className="hidden md:flex items-start gap-5 font-medium">
         <NavLink to="/">
